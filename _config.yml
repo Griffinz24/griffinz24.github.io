@@ -231,6 +231,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - _posts/
+  - _bibliography
   - _books/
   - _news/
   - _teachings/
