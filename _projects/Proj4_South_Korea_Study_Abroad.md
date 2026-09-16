@@ -1,7 +1,7 @@
 ---
 layout: page
 title: South Korea Study Abroad
-description: Civil and Environmental Practices in Seoul, South Korea
+description: Civil and Environmental Engineering Practices in Seoul, South Korea
 img: assets/img/PIRATE FLAG.png
 importance: 4
 category: Engineering

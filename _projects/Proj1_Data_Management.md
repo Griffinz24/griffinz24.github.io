@@ -8,18 +8,38 @@ category: Data
 related_publications: false
 ---
 
-Lake Mattamuskeet is a unique, understudied natural lake in Eastern North Carolina. ADD MORE ABOUT LM HERE.
+lake Mattamuskeet is the largest natural lake in North Carolina.
+The lake, which is located in Hyde County, has a surface area of over 40,000 acres, and has an average depth of only ~1 foot.
+Lake Mattamuskeet is 
 
+Due to extensive hydrologic modification of the region and the significant agricultural land use in the region, the lake faces major challenges with eutrophication.
+Eutrophication is the presence of excess nutrients within a body of water which causes major, compounding problems for the water body.
 
+This diagram, by Britannica (https://www.britannica.com/science/eutrophication), easily demonstrates this process.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Eutrophication_Process.png" title="Eutrophication process" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This is a figure of a common eutrophication process. Britannica, (https://www.britannica.com/science/eutrophication).
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Because of these conditions, monitoring water quality and similar water parameters becomes incredibly valuable.
+Dr. Randall Etheridge, A researcher and professor in East Carolina University's Center for Sustainable Energy and Environmental Engineering, has installed multiple sensors around the area.
+These sensors, which include tilt meters, low-cost, real-time LoRaWAN water level sensors, and traditional HOBO water level loggers.
+
+Over the 16+ monitoring locations, each location has a tilt meter sensor (collecting flow and heading) and a low-cost water level sensor.
+Each sensor measures a reading every 15 minutes.
+Because of the amount of data per location, data becomes messy, very quickly.
+By utilizing the programming tool, R, I have been able to effectively "solve" this issue.
+
+This process can easily be broken down into the three key steps of the process.
+First, gathering data from tilt meters, which creates the location ID's for the sites.
+Next, gathering data from the associated location tilt meters.
+Finally, all the data is compiled into an Excel file for each location.
+ 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,7 +47,7 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    This is tilt meter.
+    This steps gathers data from the tilt meter and assigns the location.
 </div>
 
 <div class="row">
@@ -36,7 +56,7 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    This is water level.
+    This step gathers data from the water level sensors.
 </div>
 
 <div class="row">
@@ -45,16 +65,9 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    This is combo.
+    This step is where all collected data is "mashed" together by location.
 </div>
 
 
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
+While this is an simple breakdown, the refinement of data sources and output was a substantial challenge in a successful script.
+This project was my first jumping off point for working in R and has greatly improved my ability to handle complicated data management.
