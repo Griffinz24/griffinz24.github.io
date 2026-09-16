@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lake Mattamuskeet Data Management
+title: Lake Mattamuskeet
 description: Sensor Data Management
 img: assets/img/LMfoggy.jpg
 importance: 1
