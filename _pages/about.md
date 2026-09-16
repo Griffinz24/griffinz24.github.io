@@ -4,6 +4,8 @@ title: About
 permalink: /
 subtitle: <a href='#'>Civil and environmental engineering student</a>. # Address. Contacts. Motto. Etc.
 
+<link rel="icon" href="assets/img/logo.png">
+
 profile:
   align: right
   image: prof_pic.jpg
