@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Civil and environmental engineering student</a>. # Address. Contacts. Motto. Etc.
-
+subtitle: <a href='#'>Civil and environmental engineering student</a>. # Address. Contacts. Motto. Etc.;
 <link rel="icon" href="assets/img/logo.png">
 
 profile:
