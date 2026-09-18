@@ -6,6 +6,8 @@ img: assets/img/IRS_Logo.png
 importance: 2
 category: Data
 related_publications: false
+graph:
+    plotly = true
 ---
 
 501(c)3 nonprofits serve an incredibly valuable purpose accross a wide range of fields.
@@ -78,6 +80,23 @@ Alternately, you can use this insight to look at how a nonprofit has grown over 
 <div class="caption">
     This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
 </div>
+
+```plotly
+{
+  "data": [
+    {
+      "x": [1, 2, 3, 4],
+      "y": [10, 15, 13, 17],
+      "type": "scatter"
+    },
+    {
+      "x": [1, 2, 3, 4],
+      "y": [16, 5, 11, 9],
+      "type": "scatter"
+    }
+  ]
+}
+```
 
 
 Utilizing public records is an excellent data source, no matter what sector you are in.
