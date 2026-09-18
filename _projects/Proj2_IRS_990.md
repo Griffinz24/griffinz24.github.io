@@ -60,7 +60,7 @@ To analyze these trends I utilized plotly to create a dynamic, interactive plot.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/html/Sound_Rivers_990_Graph_Money.html" title="990 Plot Money" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Sound_Rivers_990_Graph.png" title="990 Plot Money" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
