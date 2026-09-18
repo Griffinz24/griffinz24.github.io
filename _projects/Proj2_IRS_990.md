@@ -72,6 +72,16 @@ Taking a quick glance at this plot can show how quickly an individual can gather
 Alternately, you can use this insight to look at how a nonprofit has grown over time or expanded their reach/contributions!
 
 <div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include assets/html/Sound_Rivers_990_Graph_People.html %}
+  </div>
+</div>
+<div class="caption">
+  This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
+</div>
+
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/html/Sound_Rivers_990_Graph_People.html" title="990 Plot People" class="img-fluid rounded z-depth-1" %}
     </div>
