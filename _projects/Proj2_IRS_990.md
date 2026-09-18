@@ -56,11 +56,11 @@ These packages include:
 
 These open source tools, along with trial and error, were able to help me create this tool!
 Because running the script allows for quick analysis of decades of information, you can quickly pinpoint trends.
-To analyze these trends I utilized plotly to create a dynamic, interactive plot.
+To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sound_Rivers_990_Graph.png" title="990 Plot Money" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IRS990_Graph_Money.png" title="990 Plot Money" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -68,43 +68,15 @@ To analyze these trends I utilized plotly to create a dynamic, interactive plot.
 </div>
 
 Taking a quick glance at this plot can show how quickly an individual can gather important information relevant to business success.
-
-Alternately, you can use this insight to look at how a nonprofit has grown over time or expanded their reach/contributions!
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include assets/img/Sound_Rivers_990_Graph.png %}
-  </div>
-</div>
-<div class="caption">
-  This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
-</div>
-
+Alternately, you can use this insight to look at how a nonprofit has grown over time or expanded its reach/contributions!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include plots/SoundRivers990Money.html %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/html/SoundRivers990Money.html" title="990 Plot People" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IRS990_Graph_People.png" title="990 Plot People" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
-</div>
-
-
-<!----thisis new--->
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <iframe src="{{ '/assets/html/SoundRivers990Money.html' | relative_url }}" frameborder="0" scrolling="no" style="width: 100%; height: 500px; border: none;"></iframe>
-    </div>
-</div>
-<div class="caption">
-    This plot shows a sample plot from scraping multiple years of 990s. This graph shows total revenue, total expenses, and net.
 </div>
 
 
