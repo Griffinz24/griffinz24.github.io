@@ -73,23 +73,19 @@ Alternately, you can use this insight to look at how a nonprofit has grown over 
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include assets/html/Sound_Rivers_990_Graph_People.html %}
+    {% include assets/img/Sound_Rivers_990_Graph.png %}
   </div>
 </div>
 <div class="caption">
   This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
 </div>
+
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    <iframe src="{{ '/assets/html/Sound_Rivers_990_Graph_People.html' | relative_url }}" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
-  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include plots/Sound_Rivers_990_Graph_Money.html %}
+    </div>
 </div>
-<div class="caption">
-  This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
-</div>
-
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
