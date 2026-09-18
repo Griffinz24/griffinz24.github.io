@@ -81,11 +81,7 @@ To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
 Taking a quick glance at this plot can show how quickly an individual can gather important information relevant to business success.
 Alternately, you can use this insight to look at how a nonprofit has grown over time or expanded its reach/contributions!
 
-<!---<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IRS990_Graph_People.png" title="990 Plot People" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> ---->
+
 <iframe 
     src="{{ '/assets/html/SoundRiversPeople.html'}}" 
     frameborder="0" 
@@ -99,14 +95,5 @@ Alternately, you can use this insight to look at how a nonprofit has grown over 
 
 Utilizing public records is an excellent data source, no matter what sector you are in.
 
-<!---This is new-
-
-<iframe 
-    src="{{ '/assets/html/SoundRiversMoney.html'}}" 
-    frameborder="0" 
-    scrolling="no" 
-    style="width: 100%; height: 500px; border: none;">
-</iframe>
---->
 Because you can derive so much data from public sources, you can identify the aspects that will be most impactful for *you*.
 
