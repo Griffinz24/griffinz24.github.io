@@ -16,13 +16,11 @@ While gathering this data can be done internally, it is also shared publically t
 This required document shares many relevant features about tax-exempt organizations, like nonprofits.
 Of all the fields, some of the most valuable include:
 
-
     Total Employees
     Total Volunteers
     Total Revenue
     Total expenses
     and more!
-
 
 While this data can be incredibly helpful, sorting through the pdf form can be time consuming and inefficient. 
 Because the each year's submittal is more than 45 pages, time commitment adds up quickly.
@@ -58,14 +56,6 @@ These open source tools, along with trial and error, were able to help me create
 Because running the script allows for quick analysis of decades of information, you can quickly pinpoint trends.
 To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IRS990_Graph_Money.png" title="990 Plot Money" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This plot shows a sample plot from scraping multiple years of 990s. This graph shows total revenue, total expenses, and net.
-</div>
 
 <iframe 
     src="{{ '/assets/html/SoundRiversMoney.html'}}" 
@@ -94,6 +84,5 @@ Alternately, you can use this insight to look at how a nonprofit has grown over 
 </div>
 
 Utilizing public records is an excellent data source, no matter what sector you are in.
-
 Because you can derive so much data from public sources, you can identify the aspects that will be most impactful for *you*.
 
