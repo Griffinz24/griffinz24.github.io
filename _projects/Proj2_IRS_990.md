@@ -30,7 +30,7 @@ For example, here is a sample of a page 1 of a 2024 completed IRS 990 from the n
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sound_Rivers_990.png" title="Sound Rivers 990" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Sound_Rivers_990.png" title="Sound Rivers 990" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
 <div class="caption">
