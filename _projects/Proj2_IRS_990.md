@@ -83,18 +83,30 @@ Alternately, you can use this insight to look at how a nonprofit has grown over 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include plots/Sound_Rivers_990_Graph_Money.html %}
+        {% include plots/SoundRivers990Money.html %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/html/Sound_Rivers_990_Graph_People.html" title="990 Plot People" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/html/SoundRivers990Money.html" title="990 Plot People" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
 </div>
+
+
+<!----thisis new--->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe src="{{ '/assets/html/SoundRivers990Money.html' | relative_url }}" frameborder="0" scrolling="no" style="width: 100%; height: 500px; border: none;"></iframe>
+    </div>
+</div>
+<div class="caption">
+    This plot shows a sample plot from scraping multiple years of 990s. This graph shows total revenue, total expenses, and net.
+</div>
+
 
 Utilizing public records is an excellent data source, no matter what sector you are in.
 Because you can derive so much data from public sources, you can identify the aspects that will be most impactful for *you*.
