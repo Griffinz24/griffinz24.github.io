@@ -16,13 +16,11 @@ While gathering this data can be done internally, it is also shared publically t
 This required document shares many relevant features about tax-exempt organizations, like nonprofits.
 Of all the fields, some of the most valuable include:
 
-
     Total Employees
     Total Volunteers
     Total Revenue
     Total expenses
     and more!
-
 
 While this data can be incredibly helpful, sorting through the pdf form can be time consuming and inefficient. 
 Because the each year's submittal is more than 45 pages, time commitment adds up quickly.
@@ -32,7 +30,7 @@ For example, here is a sample of a page 1 of a 2024 completed IRS 990 from the n
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sound_Rivers_990.png" title="Sound Rivers 990" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Sound_Rivers_990.png" title="Sound Rivers 990" class="img-fluid rounded z-depth-1 d-block mx-auto" width= "400px" height: "auto"  %}
     </div>
 </div>
 <div class="caption">
@@ -56,26 +54,31 @@ These packages include:
 
 These open source tools, along with trial and error, were able to help me create this tool!
 Because running the script allows for quick analysis of decades of information, you can quickly pinpoint trends.
-To analyze these trends I utilized plotly to create a dynamic, interactive plot.
+To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/html/Sound_Rivers_990_Graph_Money.html" title="990 Plot Money" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
+<iframe 
+    src="{{ '/assets/html/SoundRiversMoney.html'}}" 
+    frameborder="0" 
+    scrolling="no" 
+    style="width: 100%; height: 500px; border: none;">
+</iframe>
 <div class="caption">
     This plot shows a sample plot from scraping multiple years of 990s. This graph shows total revenue, total expenses, and net.
 </div>
 
+
 Taking a quick glance at this plot can show how quickly an individual can gather important information relevant to business success.
+Alternately, you can use this insight to look at how a nonprofit has grown over time or expanded its reach/contributions!
 
-Alternately, you can use this insight to look at how a nonprofit has grown over time or expanded their reach/contributions!
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/html/Sound_Rivers_990_Graph_People.html" title="990 Plot People" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<iframe 
+    src="{{ '/assets/html/SoundRiversPeople.html'}}" 
+    frameborder="0" 
+    scrolling="no" 
+    style="width: 100%; height: 500px; border: none;">
+</iframe>
+
 <div class="caption">
     This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
 </div>
