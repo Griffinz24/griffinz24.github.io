@@ -36,15 +36,11 @@ on:
 
 jobs:
   visual-regression:
-    # Upstream-only: compares this repo's build against the v0.16.3 baseline.
-    # A site created from the template has its own content, so the diff would
-    # be meaningless there.
-    if: github.repository == 'alshedivat/al-folio'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - name: Checkout candidate 🛎️
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -55,7 +51,7 @@ jobs:
           bundler-cache: true
 
       - name: Setup Node 🧰
-        uses: actions/setup-node@v7
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
@@ -150,7 +146,7 @@ jobs:
 
       - name: Upload Playwright report 📄
         if: always()
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-report
           path: playwright-report
@@ -158,7 +154,7 @@ jobs:
 
       - name: Upload Jekyll logs 📄
         if: always()
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: jekyll-visual-logs
           path: |
