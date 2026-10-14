@@ -27,7 +27,7 @@ Because the each year's submittal is more than 45 pages, time commitment adds up
 This is where implementing code can be **huge**.
 For example, here is a sample of a page 1 of a 2024 completed IRS 990 from the nonprofit, Sound Rivers.
 
-
+<!---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Sound_Rivers_990.png" title="Sound Rivers 990" class="img-fluid rounded z-depth-1 d-block mx-auto" width= "400px" height: "auto"  %}
@@ -35,7 +35,8 @@ For example, here is a sample of a page 1 of a 2024 completed IRS 990 from the n
 </div>
 <div class="caption">
     This is an example of the first page of a 2024 form 990 from Sound Rivers.
-</div>
+</div> 
+--->
 
 While it may _sound_ easy to just extract the text from a pdf, in reality it is specific and complicated.
 To accomplish this task, you must use "scraping".
@@ -56,7 +57,7 @@ These open source tools, along with trial and error, were able to help me create
 Because running the script allows for quick analysis of decades of information, you can quickly pinpoint trends.
 To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
 
-
+<!---
 <iframe 
     src="{{ '/assets/html/SoundRiversMoney.html'}}" 
     frameborder="0" 
@@ -66,12 +67,12 @@ To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
 <div class="caption">
     This plot shows a sample plot from scraping multiple years of 990s. This graph shows total revenue, total expenses, and net.
 </div>
-
+--->
 
 Taking a quick glance at this plot can show how quickly an individual can gather important information relevant to business success.
 Alternately, you can use this insight to look at how a nonprofit has grown over time or expanded its reach/contributions!
 
-
+<!---
 <iframe 
     src="{{ '/assets/html/SoundRiversPeople.html'}}" 
     frameborder="0" 
@@ -81,8 +82,9 @@ Alternately, you can use this insight to look at how a nonprofit has grown over 
 
 <div class="caption">
     This plot shows a sample plot from scraping multiple years of 990s. This graph shows total volunteers (right y axis) and total contributions from membership dues (left y axis).
+    
 </div>
-
+--->
 Utilizing public records is an excellent data source, no matter what sector you are in.
 Because you can derive so much data from public sources, you can identify the aspects that will be most impactful for *you*.
 
