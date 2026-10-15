@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://griffinz24.github.io/Griffinz24.github.io-alfolio-testing//sitemap.xml
+Sitemap: https://griffinz24.github.io/sitemap.xml
