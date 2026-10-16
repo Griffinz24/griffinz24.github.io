@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Nonprofit Performance Analysis
 description: Utilizing IRS Data for Insights
 img: assets/img/IRS_Logo.png
