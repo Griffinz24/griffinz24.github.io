@@ -75,7 +75,7 @@ To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
     },
     {
       "x": [2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024],
-      "y": [-4242, 92379, 111899, 142396, 141027, 123660, 139498, -234427]
+      "y": [-4242, 92379, 111899, 142396, 141027, 123660, 139498, -234427],
       "type": "lines+markers",
       "name": "Net Profit"
     }
@@ -83,7 +83,9 @@ To analyze these trends I utilized Plotly to create a dynamic, interactive plot.
     "layout": {
         "title": {
             "text": "Plot of Revenue and Expenses by Sound Rivers"
-        }
+        },
+    "xaxis": { "title": "Year" },
+    "yaxis": { "title": "USD ($)" }
     }
 
 }
