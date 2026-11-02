@@ -2,7 +2,7 @@
 layout: page
 title: Nonprofit Performance Analysis
 description: Utilizing IRS Data for Insights
-img: assets/img/IRS_Logo.png
+img: assets/img/IRS990_App.jpg
 importance: 2
 category: Data
 chart:
@@ -109,3 +109,8 @@ Alternately, you can use this insight to look at how a nonprofit has grown over 
 Utilizing public records is an excellent data source, no matter what sector you are in.
 Because you can derive so much data from public sources, you can identify the aspects that will be most impactful for *you*.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IRS990_App.jpg" title="Sample of app running with IRS logo" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
